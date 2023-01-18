@@ -26,7 +26,7 @@ public class List {
         GetRequest getListRequest = new GetRequest(EnviromentVariables.BASE_URL, EnviromentVariables.GET_LISTS_IN_BOARD);
         getListRequest.addPathParam(EnviromentVariables.ID_KEY, EnviromentVariables.BOARD_ID);
         Response getListsResponse = getListRequest.send();
-        System.out.println("GET BOARDS IN ORGANIZATION STATUS CODE : " + getListsResponse.statusCode());
+        System.out.println("GET Lists IN Board STATUS CODE : " + getListsResponse.statusCode());
         getListsResponse.prettyPrint();
     }
 

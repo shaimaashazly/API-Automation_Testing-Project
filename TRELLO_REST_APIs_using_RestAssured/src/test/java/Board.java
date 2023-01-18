@@ -12,7 +12,7 @@ public class Board {
         createBoardRequest.addQueryParam(EnviromentVariables.ORGANIZATION_ID_KEY, EnviromentVariables.ORGANIZATION_ID);
 
         Response createResponse = createBoardRequest.send();
-        System.out.println(" status code = " + createResponse.getStatusCode());
+        System.out.println("Create Board status code = " + createResponse.getStatusCode());
         createResponse.prettyPrint();
 
         JsonPath path = createResponse.jsonPath();

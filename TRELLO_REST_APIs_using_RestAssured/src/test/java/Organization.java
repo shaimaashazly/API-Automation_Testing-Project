@@ -10,7 +10,7 @@ public class Organization {
         createOrganizationRequest.addQueryParam("displayName", "Rest_Api_With_RestAssured");
 
         Response createResponse = createOrganizationRequest.send();
-        System.out.println(" status code = " + createResponse.getStatusCode());
+        System.out.println("Create Organization status code = " + createResponse.getStatusCode());
         createResponse.prettyPrint();
 
         JsonPath path = createResponse.jsonPath();
@@ -25,7 +25,7 @@ public class Organization {
         GetRequest getMemberOrganizationRequest = new GetRequest(EnviromentVariables.BASE_URL, EnviromentVariables.GET_MEMBER_ORGANIZATION);
         getMemberOrganizationRequest.addPathParam("id", EnviromentVariables.MEMBER_ID);
         Response organizationResponse = getMemberOrganizationRequest.send();
-        System.out.println(" status code = " + organizationResponse.getStatusCode());
+        System.out.println(" Get Organizations status code = " + organizationResponse.getStatusCode());
         organizationResponse.prettyPrint();
 
     }

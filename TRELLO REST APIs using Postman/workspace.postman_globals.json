@@ -1,0 +1,21 @@
+{
+	"id": "762cbe05-59f5-4d10-8160-1ffc7c3f014c",
+	"values": [
+		{
+			"key": "api_key",
+			"value": "b949f62d18274cbb767e428200fdb8d5",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "api_token",
+			"value": "ATTA72b27698e12aabd564858e4a864b323a992da7f1cc15613d9fa246990e729847A53387EA",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-01-18T19:13:43.445Z",
+	"_postman_exported_using": "Postman/10.8.1"
+}
